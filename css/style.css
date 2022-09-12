@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    font-family:'Open Sans', sans-serif;
+    overflow-x: hidden;
+    
+}
+a:link{
+    text-decoration: none;
+}
+.menu_logo{
+    border-bottom: #2b2929 50px;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    
+    
+}
+.menu_logo ul {
+   list-style-type: none;
+   
+       
+}
+
+.menu_logo > li > a:hover {
+    color: #2b2929;
+}
+
+
+.container_menu {
+    background-color: white;
+    position: relative;
+    bottom: 30px;
+    width: 100%;
+    height: 300px; 
+    
+}
+.container_menu .contact-menu{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    
+}
+.container_menu .contact-menu p{
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: right;
+    margin-right: 20px;
+    
+}
+
+.container_menu .logo_name{
+    margin-top: 15px;
+}
+
+
+.menu_logo ul li {
+   
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  align-items: center;
+  margin-top: 150px;
+  
+   
+}
+.menu_logo ul li a{
+    color: black;
+    font-weight: bold;
+
+}
+.textbox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 240px;
+    margin-left: 630px;
+    align-items: center;
+    display: block;
+    z-index: 1;
+    border: #2b2929;
+    
+}
+#search{
+    width:700px;
+    height: 35px;
+    
+    
+}
+.button_search{
+    margin-left: 20px;
+}
+
+
+.menu_logo > li + li {
+    margin-left: 20px;
+}
+
+.logo {
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    
+}
+.slider img{
+    width:100%;
+    height: 250px;
+    position: relative;
+    margin-top: 0px;
+    bottom: 15px;
+    z-index: -1;
+    
+}
+.dropdown{
+  list-style: none;
+  position:absolute;
+  display:none;
+ 
+}
+
+.active_sanpham{
+    position: relative;
+    display: inline-block;
+    
+}
+.active_dichvu{
+    position: relative;
+    display: inline-block;
+
+}
+.active_nghesi{
+    position: relative;
+}
+.active_nghesi:hover .dropdown{
+    display: block;
+}
+.active_sanpham:hover .dropdown{
+    display: block;
+}
+.active_dichvu:hover .dropdown{
+    display: block;
+}
+.icon-shopping-cart{
+    width: 50px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 250px;
+}
+.form-horizontal{
+   position: relative;
+   float: right;
+   width: 200px;
+}
+#sidebar{
+
+    width: 350px;
+    background-color: black;
+
+}
+#sidebar li {
+    color: white;
+    list-style-type: none;
+    font-size: 15px;
+    padding: 18px;
+    border-bottom: 1px solid gray;
+    
+}
+
+.grids_of_4{
+    
+    display: flex;
+    width: 1500px;
+    margin-top: 50px;
+    padding-right: 100px;
+    
+    
+}
+
+.grid1_of_4{
+    width: 300px;          
+    text-align: center;
+    margin-left: 50px;
+    
+}
+.grid1_of_4 a:visited{
+    color: black;
+    
+}
+.grid1_of_4 a{
+    color: black;
+}
+.grid1_of_4 a:hover{
+    color: brown;
+}
+
+
+.footer {
+	background: black;
+	position: relative;
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    color: white;
+
+}
+.footer .google_maps{
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: 150px;
+}
+.footer .list_footer_right{
+   position: absolute;
+   margin-top: 150px;
+   line-height: 50px;
+   margin-left: 500px;
+}
+.footer .list_footer_right ul {
+    list-style-type: none;
+    
+}
+.footer .list_footer_left{
+    position: absolute;
+    line-height: 50px;
+    margin-top: 150px;
+    margin-left: 240px;
+    
+}
+.footer .col-sm a{
+    color: white;
+}
+.footer .col-sm a:hover{
+    color: gray;
+}
+
+.fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-decoration: none;
+  margin: 5px 2px;
+  
+}
+.footer .social_media_contact{
+     display: flex;
+     flex-direction: column;
+     float: right;
+     background: black;
+     height: 100%;
+     z-index: 100;
+}
+
+.footer .list_footer_left ul{
+    list-style-type: none;
+}
+.footer .d-flex-payment{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 300px;
+    margin-left: 830px;
+}
+.footer .payment-item img{
+    width: 65px;
+}
+.footer .payment-item{
+    margin: 0 3px;
+    flex: 0 0 30%;
+}
+.footer .title-payment{
+    margin-left: 830px;
+    position: absolute;
+    margin-top: 250px;
+}
+

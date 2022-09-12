@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet", href="css/style.css">
+	<!-- Social media icon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap CSS only-->
+    <!-- CSS only -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Khoảnh Khắc Trên Đĩa Nhạc</title>
+    <script type="text/javascript">
+      
+</script>
+</head>
+
+<body>
+    <!-- Phần Đầu -->
+      <header>
+           <div class="container_menu">
+			<div class="contact-menu">
+				<p>Liên Hệ : 0929611653 - 0896646942 ( Mr. Minh Trí )</p>
+			</div>
+    <!-- Phần Hiển Thị Logo -->
+            <div class="logo">              
+    <h1 class="logo_name">
+       <img src="./img/Momemt Of Records.png" alt="Logo" width="235px">
+    </h1>
+	   </div>
+	   <div class="textbox">
+		<input type="text" name="search" placeholder=" Tìm Kiếm Sản Phẩm " id="search"><button class="button_search"> Tìm Kiếm </button>
+	   </div>
+              <div class="menu_logo">
+               <ul>
+                 <li>
+                   <a href="./index.html">Home</a>
+                 </li>
+                 <li class="active_nghesi">
+                   <a href="#">Nghệ Sĩ</a>
+                    <ul class="dropdown">
+                      <li>
+                        <a href="#">Hoàng Thuỳ Linh</a> 
+                      </li>
+                      <li>
+                        <a href="#">Amee</a> 
+                      </li>
+                      <li>
+                        <a href="#">BTS</a> 
+                      </li>
+                      <li>
+                        <a href="#">BlackPink</a> 
+                      </li>
+                      <li>
+                        <a href="#">Ariana Grande</a> 
+                      </li>
+                      <li>
+                       <a href="#">Dua Lipa</a> 
+                      </li>
+                    </ul>
+                 </li>
+                 <li class="active_sanpham">
+                   <a href="#">Sản Phẩm</a>
+                   <ul class="dropdown">
+                     <li>
+                       <a href="#">Băng Cassette</a>
+                     </li>
+                     <li>
+                       <a href="#">Album</a>
+                     </li>
+                     <li>
+                       <a href="#">Đĩa Vnyl</a>
+                     </li>
+                     <li>
+                       <a href="#">Đĩa CD</a>
+                     </li>
+                   </ul>
+                 </li>
+                 <li class="active_dichvu">
+                   <a href="#">Dịch vụ</a>
+                   <ul class="dropdown">
+                     <li>
+                       <a href="#">Tổ Chức Sự Kiện</a>
+                    </li>
+                    <li>
+                      <a href="#">Đăng Ký Bản Quyền</a>
+                    </li>
+                    <li>
+                      <a href="#">Đơn Vị Tài Trợ</a>
+                    </li>
+                   </ul>
+                 </li>
+                 <li>
+                   <a href="#">Liên Hệ</a>
+                 </li>
+               </ul> 
+			</div>
+			<img src="/img/shopping-cart.png" alt="shopping-cart" class="icon-shopping-cart">
+		</div>
+    </header>
+
+    <div class="slider">
+      <img src="https://file.hstatic.net/1000304920/collection/cua_hang_bang_dia_goc_available_now_332f289aeaf346c3a5c9e3f7361a414b_master.png" alt="anh slider">
+     </div>
+  
+    
+    
+    
+     <div class="row">
+		<div class="col-sm">
+      <div id="sidebar" onclick="togglemenu()">
+      <div class="togglebtn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+        <ul>
+          <li>V-pop</li>
+          <li>K-Pop</li>
+          <li>C-pop</li>
+          <li>1980's</li>
+          <li>Rap</li>
+          <li>Rock'n roll</li>
+          <li>Độc Quyền
+             <ul>
+              <li>Sơn Tùng MTP</li>
+              <li>Hoàng Thuỳ Linh</li>
+              <li>Amee</li>
+             </ul>
+          </li>
+          <li>Album có chữ ký</li>
+          <li>Phiên bản đặc biệt</li>
+          <li>Jazz</li>
+        </ul>
+      </div>
+	  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7LwPlSigohHlCMmh6i55Dc?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    </div>
+    <div class="col-sm">
+		<div class="form-horizontal">
+			<label for="SortBy">Sắp xếp bởi</label>
+			<select name="SortBy" id="SortBy">
+			  <option value="manual">Đặc tính</option>
+			  <option value="best-selling">Bán chạy nhất</option>
+			  <option value="title-ascending">Theo thứ tự, A-Z</option>
+			  <option value="title-descending">Theo thứ tự, Z-A</option>
+			  <option value="price-ascending">Giá, từ thấp đến cao</option>
+			  <option value="price-descending">Giá, Từ cao đến thấp</option>
+			  <option value="created-descending">Ngày, mới đến cũ</option>
+			  <option value="created-ascending">Ngày, cũ đến mới</option>
+			</select>
+		</div>
+    <div class="grids_of_4">
+		  <div class="grid1_of_4">
+				<div class="content_box"><a href="details.html">
+			   	   	 <img src="images/w1.jpg" class="img-responsive" alt=""/>
+				   	  </a>
+				    <h4><a href="https://www.musickorea.com/product/BAEK-YE-RIN-EVERY-LETTER-I-SENT-YOU./78076/cid/383">Every Letter I Sent You</a></h4>
+					<img src="https://upload.wikimedia.org/wikipedia/en/2/26/Every_letter_I_sent_you_Album_Cover.jpg" alt="every letter i sent u" width="50%">
+				     <p>Every Letter I Sent You là album phòng thu đầu tiên và là album đôi đầu tiên của ca sĩ kiêm nhạc sĩ kiêm nhà sản xuất thu âm người Hàn Quốc Yerin Baek. <br> Nó được phát hành thông qua Blue Vinyl và được xuất bản bởi Dreamus vào ngày 10 tháng 12 năm 2019.</p>
+					 <div class="grid_1 simpleCart_shelfItem">
+				    
+					 <div class="item_add"><span class="item_price"><h6> $99.00</h6></span></div>
+					<div class="item_add"><span class="item_price"><a href="#">Thêm vào giỏ</a></span></div>
+					 </div>
+			   	</div>
+			</div>
+			<div class="grid1_of_4">
+				<div class="content_box"><a href="details.html">
+			   	   	 <img src="images/w2.jpg" class="img-responsive" alt=""/>
+				   	  </a>
+					  
+				    <h4><a href="https://wearekpop.com/products/bts-album-love-yourself-answer?_pos=1&_sid=4f055ab8f&_ss=r&variant=39698938233028">Love Yourself: Answer</a></h4>
+					<img src="https://upload.wikimedia.org/wikipedia/vi/5/5a/BTS_Love_Yourself_Answer_album_cover.jpg" alt="love yourself- bts" width="50%">
+				     <p>Love Yourself: Answer (cách điệu là LOVE YOURSELF 結 'Answer') là album tổng hợp tiếng Hàn thứ ba của nhóm nhạc nam Hàn Quốc BTS.<br>Album được phát hành vào ngày 24 tháng 8 năm 2018 bởi Big Hit Entertainment và có 4 phiên bản khác nhau: S, E, L và F. <br> Album bao gồm 25 bài hát (26 cho phiên bản kỹ thuật số), bao gồm 7 bài hát mới với "Idol" là bài hát chủ đề.</p>
+					 <div class="grid_1 simpleCart_shelfItem">
+				    
+					<div class="item_add"><span class="item_price"><h6> $76.00</h6></span></div>
+					<div class="item_add"><span class="item_price"><a href="#">Thêm vào giỏ</a></span></div>
+					 </div>
+			   	</div>
+			</div>
+			<div class="grid1_of_4">
+				<div class="content_box"><a href="details.html">
+			   	   	 <img src="images/w3.jpg" class="img-responsive" alt=""/>
+				   	  </a>
+				    <h4><a href="https://shop.theweeknd.com/products/dawn-fm-cd?c=%2Fcollections%2Fnew-arrivals&t=New+Arrivals">Dawn FM</a></h4>
+                     <img src="https://sonphuoc.com/wp-content/uploads/2022/01/dawn-fm-the-weeknd-album-cover.jpeg" alt="dawn fm" width="50%">
+				     <p>Dawn FM là album phòng thu thứ năm của ca sĩ kiêm nhạc sĩ người Canada the Weeknd. <br>Nó được phát hành vào ngày 7 tháng 1 năm 2022, thông qua XO và Republic Records.</p>
+					 <div class="grid_1 simpleCart_shelfItem">
+				    
+					 <div class="item_add"><span class="item_price"><h6> $58.00</h6></span></div>
+					<div class="item_add"><span class="item_price"><a href="#">Thêm vào giỏ</a></span></div>
+					 </div>
+			   	</div>
+			</div>
+			<div class="grid1_of_4">
+				<div class="content_box"><a href="details.html">
+			   	   	 <img src="images/w4.jpg" class="img-responsive" alt=""/>
+				   	  </a>
+				    <h4><a href="https://en.ygselect.com/product/ros%C3%A9-first-single-album-r/6097/">R</a></h4>
+					<img src="https://upload.wikimedia.org/wikipedia/vi/8/81/Ros%C3%A9_-_R.png" alt="rose gone" width="50%">
+				     <p>R là đĩa đơn đầu tay của nữ ca sĩ người New Zealand gốc Hàn và là thành viên nhóm nhạc nữ Hàn Quốc Blackpink, Rosé. <br> Album được phát hành vào ngày 12 tháng 3 năm 2021 bởi YG Entertainment và Interscope. <br> Album bao gồm bài hát chủ đề "On the Ground" và ca khúc b-side "Gone" từng được biểu diễn trước đó tại The Show.</p>
+					 <div class="grid_1 simpleCart_shelfItem">
+				    
+					 <div class="item_add"><span class="item_price"><h6> $112.00</h6></span></div>
+					<div class="item_add"><span class="item_price"><a href="#">Thêm vào giỏ</a></span></div>
+					 </div>
+			   	</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		
+		<div class="grids_of_4">
+		 <div class="grid1_of_4">
+				<div class="content_box"><a href="details.html">
+			   	   	 <img src="images/w5.jpg" class="img-responsive" alt=""/>
+				   	  </a>
+				    <h4><a href="https://shop.keshimusic.com/collections/gabriel-collection/products/gabriel-standard-cd-explicit">The Reaper </a></h4>
+					<img src="https://lastfm.freetls.fastly.net/i/u/ar0/b239c271ad9ea8b58c516ad7baa2f8f4.jpg" alt="keshi" width="50%">
+				     <p>Keshi chính thức phát hành sản phẩm âm nhạc dưới nghệ danh mới vào năm 2017 và bùng nổ với EP 2018 "The Reaper”. <br> Anh tiếp tục phát hành các ca khúc như "over u", "magnolia", "2 soon" và đã thu về hơn 40 triệu lượt nghe trực tuyến.</p>
+					 <div class="grid_1 simpleCart_shelfItem">
+				    
+					 <div class="item_add"><span class="item_price"><h6> $109.00</h6></span></div>
+					<div class="item_add"><span class="item_price"><a href="#">Thêm vào giỏ</a></span></div>
+					 </div>
+			   	</div>
+			</div>
+			<div class="grid1_of_4">
+				<div class="content_box"><a href="details.html">
+			   	   	 <img src="images/w6.jpg" class="img-responsive" alt=""/>
+				   	  </a>
+				    <h4><a href="https://shop.jojimusic.com/products/ballads1-vinyl">Ballads 1</a></h4>
+					<img src="https://upload.wikimedia.org/wikipedia/en/6/6a/Joji_%E2%80%93_Ballads_1.png" alt="joji" width="50%">
+				     <p>Ballads 1 là album phòng thu đầu tay của ca sĩ kiêm nhạc sĩ người Nhật Joji. <br> Nó đóng vai trò là phần tiếp theo của In Tongues EP, dự án đầu tiên của anh ấy với tư cách là Joji, và Pink Season, <br> album duy nhất của anh ấy được phát hành với tên Pink Guy thay thế hiện đã nghỉ hưu.</p>
+					 <div class="grid_1 simpleCart_shelfItem">
+				    
+					 <div class="item_add"><span class="item_price"><h6> $95.00</h6></span></div>
+					<div class="item_add"><span class="item_price"><a href="#">Thêm vào giỏ</a></span></div>
+					 </div>
+			   	</div>
+			</div>
+			<div class="grid1_of_4">
+				<div class="content_box"><a href="details.html">
+			   	   	 <img src="images/w7.jpg" class="img-responsive" alt=""/>
+				   	  </a>
+				    <h4><a href="https://store.taylorswift.com/products/lover-standard-edition-physical-cd">Lover</a></h4>
+					<img src="https://upload.wikimedia.org/wikipedia/vi/c/cd/Taylor_Swift_-_Lover.png" alt="taylor" width="50%">
+				     <p>Lover là album phòng thu thứ bảy của ca sĩ-nhạc sĩ người Mỹ Taylor Swift. <br> Nó được phát hành vào ngày 23 tháng 8 năm 2019 bởi Republic Records. <br> Với vai trò giám đốc sản xuất, Swift hợp tác với các nhà sản xuất như Jack Antonoff, Joel Little, Louis Bell, Frank Dukes và Sounwave để tạo nên album</p>
+					 <div class="grid_1 simpleCart_shelfItem">
+				    
+					 <div class="item_add"><span class="item_price"><h6> $68.00</h6></span></div>
+					<div class="item_add"><span class="item_price"><a href="#">Thêm vào giỏ</a></span></div>
+					 </div>
+			   	</div>
+			</div>
+			<div class="grid1_of_4">
+				<div class="content_box"><a href="details.html">
+			   	   	 <img src="images/w8.jpg" class="img-responsive" alt=""/>
+				   	  </a>
+				    <h4><a href="https://betado.com/campaigns/album-ngot/"> 3</a></h4>
+					<img src="https://i.scdn.co/image/ab67616d0000b273c98af859e9b24d3a6c1c72bb" alt="ngot" width="50%">
+				     <p>
+						Vừa qua, Ngọt vừa phát hành album “3 (Tuyển Tập Nhạc Ngọt Mới Trẻ Sôi Động 2019)” sau một thời gian dài chuẩn bị và ấp ủ. <br> Album này được ban nhạc bắt tay và lên ý tưởng ngay sau khi hoàn thành tour “Ngbthg” 2 năm trước.</p>
+					 <div class="grid_1 simpleCart_shelfItem">
+				    
+					 <div class="item_add"><span class="item_price"><h6> $74.00</h6></span></div>
+					<div class="item_add"><span class="item_price"><a href="#">Thêm vào giỏ</a></span></div>
+					 </div>
+			   	</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="grids_of_4">
+		  <div class="grid1_of_4">
+				<div class="content_box"><a href="details.html">
+			   	   	 <img src="images/w9.jpg" class="img-responsive" alt=""/>
+				   	  </a>
+				    <h4><a href="https://shopee.vn/Purpose-(Standard)-CD-Justin-Bieber-i.226010251.3943438209"> Purpose</a></h4>
+					<img src="https://upload.wikimedia.org/wikipedia/vi/2/27/Justin_Bieber_-_Purpose_%28Official_Album_Cover%29.png" alt="justin" width="50%">
+				     <p>Purpose là album phòng thu thứ tư của nam ca sĩ người Canada Justin Bieber, được phát hành ngày 13 tháng 11 năm 2015, bởi Def Jam Recordings. <br> Album đã phát hành hai đĩa đơn là "What Do You Mean?" ngày 28 tháng 8 năm 2015 và "Sorry" ngày 21 tháng 10 năm 2015.</p>
+					 <div class="grid_1 simpleCart_shelfItem">
+				    
+					 <div class="item_add"><span class="item_price"><h6> $80.00</h6></span></div>
+					<div class="item_add"><span class="item_price"><a href="#">Thêm vào giỏ</a></span></div>
+					 </div>
+			   	</div>
+			</div>
+			<div class="grid1_of_4">
+				<div class="content_box"><a href="details.html">
+			   	   	 <img src="images/w10.jpg" class="img-responsive" alt=""/>
+				   	  </a>
+				    <h4><a href="https://fsgprints.com/products/post-malone-hollywoods-bleeding-2xlp-album-pin-m45"> Hollywood's Bleeding</a></h4>
+					<img src="https://upload.wikimedia.org/wikipedia/en/5/58/Post_Malone_-_Hollywood%27s_Bleeding.png" alt="malone" width="50%">
+				     <p>Hollywood's Bleeding là album phòng thu thứ ba của rapper kiêm ca sĩ người Mỹ Post Malone. Nó được phát hành vào ngày 6 tháng 9 năm 2019, bởi Republic Records.
+					<br>Album có sự xuất hiện của các khách mời DaBaby, Future, Halsey, Meek Mill, Lil Baby, Ozzy Osbourne, Travis Scott, SZA, Swae Lee và Young Thug.
+					<br>Việc sản xuất chủ yếu do Louis Bell phụ trách, với sự đóng góp của Andrew Watt, BloodPop, Brian Lee, Carter Lang, DJ Dahi, Emile Haynie, Frank Dukes và chính Malone, cùng những người khác.</p>
+					 <div class="grid_1 simpleCart_shelfItem">
+				    
+					 <div class="item_add"><span class="item_price"><h6> $65.00</h6></span></div>
+					<div class="item_add"><span class="item_price"><a href="#">Thêm vào giỏ</a></span></div>
+					 </div>
+			   	</div>
+			</div>
+			<div class="grid1_of_4">
+				<div class="content_box"><a href="details.html">
+			   	   	 <img src="images/w11.jpg" class="img-responsive" alt=""/>
+				   	  </a>
+				    <h4><a href="https://www.muziker.com/charlie-puth-nine-track-mind-vinyl-lp"> Nine track mind</a></h4>
+					<img src="https://upload.wikimedia.org/wikipedia/vi/4/43/Nine_Track_Mind.jpg" alt="charlie" width="50%">
+				     <p>Nine Track Mind là album phòng thu đầu tay của nam ca sĩ Charlie Puth, phát hành trên thị trường vào ngày 29 tháng 1 năm 2016, bởi hãng đĩa Atlantic Records. <br> Trước đó album được dự kiến phát hành vào ngày 6 tháng 11 năm 2015.</p>
+					 <div class="grid_1 simpleCart_shelfItem">
+				    
+					 <div class="item_add"><span class="item_price"><h6> $90.00</h6></span></div>
+					<div class="item_add"><span class="item_price"><a href="#">Thêm vào giỏ</a></span></div>
+					 </div>
+			   	</div>
+			</div>
+			<div class="grid1_of_4">
+				<div class="content_box"><a href="details.html">
+			   	   	 <img src="images/w12.jpg" class="img-responsive" alt=""/>
+				   	  </a>
+				    <h4><a href="https://www.asiaworldmusic.fr/artistes-masculins-kr/35582-colde-ep-love-part-1-edition-coreenne-8803581201185.html">Love Part 1</a></h4>
+					<img src="http://www.musickorea.com/storage/woo680821EN/www/prefix/product/2019/23/O/product.18666.155974497734015.jpg" alt="colde" width="50%">
+				     <p>Kim Hee-soo, hay còn được gọi là Colde, là một ca sĩ kiêm nhạc sĩ người Hàn Quốc. <br> Anh ra mắt vào năm 2016 với tư cách là thành viên của bộ đôi indie Off On Off. <br> Với tư cách là nghệ sĩ solo, anh đã phát hành các album mở rộng Wave, Love Part 1 và Idealism.</p>
+					 <div class="grid_1 simpleCart_shelfItem">
+				    
+					 <div class="item_add"><span class="item_price"><h6> $75.00</h6></span></div>
+					<div class="item_add"><span class="item_price"><a href="#">Thêm vào giỏ</a></span></div>
+					 </div>
+			   	</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+
+		</div>
+		<footer>
+			<div class="footer">
+			<div class="col-sm">
+		   <div class="list_footer_right">
+              <ul>
+				<li><a href="#">Thông tin chung</a></li>
+				<li><a href="#">Sản phẩm</a></li>
+				<li><a href="#">Câu hỏi thường gặp</a> </li>
+				<li><a href="#">Liên hệ</a></li>
+			  </ul>
+		   </div>
+		</div>	
+		<div class="col-sm">
+			<div class="list_footer_left">
+			<ul>
+					<li><a href="#">Bảo mật</a></li>
+					<li><a href="#">Tuyển dụng</a></li>
+					<li><a href="#">Chính sách</a> </li>
+					<li><a href="#">Liên hệ</a></li>
+			</ul>
+		</div>
+		</div>
+		  <div class="google_maps">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d15676.53651375462!2d106.68998128450863!3d10.801037654486509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x3175289544cc846b%3A0xd620973063bc8543!2zMzM0IENodSBWxINuIEFuLCBwaMaw4budbmcgMTIsIELDrG5oIFRo4bqhbmgsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!3m2!1d10.8115129!2d106.7008671!4m5!1s0x3175292837e2d8d1%3A0xee340d177a862c5d!2zSMOjbmcgxJDEqWEgVGjhu51pIMSQ4bqhaSAoVGltZXMgUmVjb3JkcyksIDYgxJAuIE5ndXnhu4VuIFbEg24gTmd1eeG7hW4sIFTDom4gxJDhu4tuaCwgUXXhuq1uIDEsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCA3MDAwMDAsIFZp4buHdCBOYW0!3m2!1d10.7917313!2d106.6879938!5e0!3m2!1svi!2sus!4v1658955483406!5m2!1svi!2sus" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		  </iframe>
+		  </div>
+		  <div class="social_media_contact">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-google"></a>
+			<a href="#" class="fa fa-youtube"></a>
+            <a href="https://www.instagram.com/__tmt16/" class="fa fa-instagram"></a>
+		  </div>
+		  <h2 style="font-size:smaller" class="title-payment">Phương Thức Thanh Toán</h2>
+		  <div class="d-flex-payment">
+			<div class="payment-item">
+				<a href="#"><img src="https://theme.hstatic.net/1000360022/1000877095/14/ft_img_payment_2_img.png?v=258" alt=""></a>
+			</div>
+			<div class="payment-item">
+				<a href="#"><img src="//theme.hstatic.net/1000360022/1000877095/14/ft_img_payment_1_img.png?v=258" alt=""></a>
+			</div>
+		  <div class="payment-item">
+			<a href="#"><img src="https://theme.hstatic.net/1000360022/1000877095/14/ft_img_payment_3_img.png?v=258" alt=""></a>
+		  </div>
+		  <div class="payment-item">
+			<a href="#"><img src="	https://theme.hstatic.net/1000360022/1000877095/14/ft_img_payment_5_img.png?v=258" alt=""></a>
+		  </div>
+		  <div class="payment-item">
+			<a href=""><img src="https://theme.hstatic.net/1000360022/1000877095/14/ft_img_payment_6_img.png?v=258" alt=""></a>
+		  </div>
+		  </div>
+		</div>
+		</footer>
+  
+   
+</body>
+</html>
